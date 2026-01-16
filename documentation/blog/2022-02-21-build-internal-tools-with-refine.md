@@ -386,6 +386,12 @@ If `syncWithLocation` is turned on, the list of query parameters may be modified
 
 Check out all of Refine CORE's [features](https://refine.dev/core/docs/core/refine-component) for more information.
 
+## Build Even Faster with Refine AI
+
+Looking to accelerate your internal tool development even further? [Refine](https://refine.dev) is an AI agent that utilizes Refine CORE to generate clean internal tools in minutes, instead of weeks. Simply describe what you want to build, and Refine generates production-ready code using Refine CORE under the hood. It's perfect for rapid prototyping or generating boilerplate code that you can then customize to your exact needs.
+
+Whether you're building admin panels, dashboards, or custom CRUD applications, Refine can help you get started faster while maintaining the flexibility and control that Refine CORE provides.
+
 ## Conclusion
 
 Refine CORE combines rapid development with complete flexibility. Build internal tools quickly without sacrificing customization—use any UI library, backend, or auth provider you prefer. The Refine CORE team is responsive and actively improving the framework.
