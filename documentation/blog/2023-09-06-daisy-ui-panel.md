@@ -40,7 +40,7 @@ Towards the end, we see how to customize the layout of a **Refine** app. We repl
 
 **Refine** separates app concerns such as data fetching, authentication, access control, etc., into layers of React contexts each backed by a provider object, a set of corresponding hooks as well as relevant components. For example, the data layer represents a context dependent on a [`dataProvider`](https://refine.dev/core/docs/api-reference/core/providers/data-provider/#methods) object with a set of methods for handling CRUD actions. The data layer is accessed with a set of data hooks that help invoke the CRUD methods from UI components.
 
-This means, we would have all CRUD related methods such as `getList()`, `create()`, `show()`, `update()` and `delete()` inside a `dataProvider` object and we are able to access them from a UI component using [`useList()`](https://refine.dev/core/docs/api-reference/core/data/hooks/useList/), [`useCreate()`](https://refine.dev/core/docs/api-reference/core/data/hooks/useCreate/), etc., data hooks. The data hooks, in turn, make use of [**React Query**](https://tanstack.com/query/v3/) for data fetching, caching state management and error handling.
+This means, we would have all CRUD related methods such as `getList()`, `create()`, `show()`, `update()` and `delete()` inside a `dataProvider` object and we are able to access them from a UI component using [`useList()`](https://refine.dev/core/docs/data/hooks/use-list/), [`useCreate()`](https://refine.dev/core/docs/data/hooks/use-create/), etc., data hooks. The data hooks, in turn, make use of [**React Query**](https://tanstack.com/query/v3/) for data fetching, caching state management and error handling.
 
 The **Refine** data hooks mentioned above are basically core hooks. Higher level hooks which are built top of these hooks exist, such as the [`useTable()`](https://refine.dev/core/docs/packages/documentation/react-table/#installation) hook provided by `@refinedev/react-table` support package that integrates [**React Table**](https://tanstack.com/table/v8/docs/api/core/table) with **Refine** core. Higher level hooks adds additional features that increase development efficiency. For example, the `useList()` hook is employed by the `useTable()` hook that helps present data in a table using all the features of React Table. Similarly, the `useCreate()` core data hook is utilized inside the `useForm()` high level hook provided by the `@refinedev/react-hook-form` package which augments form related CRUD actions with [**React Hook Form**](https://react-hook-form.com/get-started).
 
@@ -749,7 +749,7 @@ export const Dashboard: React.FC = () => {
 
 Notice we are fetching data from three **Fine Foods** API end points: `/dailyRevenue`, `/dailyOrders` and `/newCustomers`. We are fetching them with the `useList()` **Refine** core hook. We are querying them as resources although in our **Refine** admin panel app they are not. The `filters` object is used to get the past 7 days' data.
 
-You can find more details in the [**Refine** `useList()` docs here](https://refine.dev/core/docs/api-reference/core/data/hooks/useList/).
+You can find more details in the [**Refine** `useList()` docs here](https://refine.dev/core/docs/data/hooks/use-list/).
 
 With these changes, our dashboard page has three KPI cards displayed at the top:
 

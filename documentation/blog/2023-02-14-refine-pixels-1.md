@@ -115,7 +115,7 @@ const dataProvider = {
 </p>
 </details>
 
-The underlying architecture involves any presentational component passed to `<Refine />` to be able to consume these configured methods via corresponding hooks. Each method in a provider has a corresponding hook via which a consumer component is able to fetch data from the backend, i.e. the [`useList()`](https://refine.dev/core/docs/api-reference/core/data/hooks/useList/) hook is the corresponding function accessing the `dataProvider.getList()` provider method.
+The underlying architecture involves any presentational component passed to `<Refine />` to be able to consume these configured methods via corresponding hooks. Each method in a provider has a corresponding hook via which a consumer component is able to fetch data from the backend, i.e. the [`useList()`](https://refine.dev/core/docs/data/hooks/use-list/) hook is the corresponding function accessing the `dataProvider.getList()` provider method.
 
 An example hook usage looks like this:
 

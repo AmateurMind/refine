@@ -58,7 +58,7 @@ Behind the scenes, **Supabase** spins up globally distributed **Realtime** serve
 
 We are using **Supabase** **Realtime**'s [**PostgreSQL Change Data Capture**](https://supabase.com/docs/guides/realtime#postgres-cdc) feature which will now allow our app to publish mutation events to the `pixels` channel and also listen to those changes from a subscriber component.
 
-This means mutation hooks such as [`useCreate()`](https://refine.dev/core/docs/api-reference/core/data/hooks/useCreate/) can now publish events to the `pixels` channel and consumer hooks like [`useList()`](https://refine.dev/core/docs/api-reference/core/data/hooks/useList/) are able to get instant updates for any change to `pixels`.
+This means mutation hooks such as [`useCreate()`](https://refine.dev/core/docs/data/hooks/use-create/) can now publish events to the `pixels` channel and consumer hooks like [`useList()`](https://refine.dev/core/docs/data/hooks/use-list/) are able to get instant updates for any change to `pixels`.
 
 ## `<Refine />`'s `liveProvider` Prop
 

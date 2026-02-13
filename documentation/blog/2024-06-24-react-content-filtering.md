@@ -446,7 +446,7 @@ export const Posts = () => {
 };
 ```
 
-We first imported the `useState` hook to track the state of the app. Then we imported the [`useMany`](https://refine.dev/core/docs/data/hooks/useMany/) hook from Refine to access the records of the integrated data API.
+We first imported the `useState` hook to track the state of the app. Then we imported the [`useMany`](https://refine.dev/core/docs/data/hooks/use-many/) hook from Refine to access the records of the integrated data API.
 
 Then we imported all the components we created in the earlier phase of the tutorial, as well as the `framer-motion` library for animations and custom style rules to style the layout.
 
