@@ -102,7 +102,7 @@ const { listProps } = useSimpleList<IClient>({
 });
 ```
 
-The above `useSimpleList()` hook is a `@refinedev/antd` UI hook that is built on top of the low level [`useList()`](https://refine.dev/core/docs/api-reference/core/data/hooks/useList/) data hook. Low level hooks, in turn, leverage **React Query** hooks in order to make API calls invoked from inside the provider methods. Here's an early sneak peek into the action under the hood:
+The above `useSimpleList()` hook is a `@refinedev/antd` UI hook that is built on top of the low level [`useList()`](https://refine.dev/core/docs/data/hooks/use-list/) data hook. Low level hooks, in turn, leverage **React Query** hooks in order to make API calls invoked from inside the provider methods. Here's an early sneak peek into the action under the hood:
 
 ```tsx title="Inside useList() hook"
 const queryResponse = useQuery<GetListResponse<TData>, TError>(
