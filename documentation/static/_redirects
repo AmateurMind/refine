@@ -1286,6 +1286,17 @@
 /resources/getting-started/ /resources/ 301
 /resources/publish-export/ /resources/ 301
 
+# Template redirects (templates → examples)
+/core/templates/auth-provider/google-auth /core/docs/examples/auth-provider/google-auth/ 301
+/core/templates/auth-provider/otpLogin /core/docs/examples/auth-provider/otpLogin/ 301
+/core/templates/auth-provider/auth0 /core/docs/examples/auth-provider/auth0/ 301
+/core/templates/auth-provider/keycloak /core/docs/examples/auth-provider/keycloak/ 301
+/core/templates/data-provider/strapi-v4/ /core/docs/examples/data-provider/strapi-v4/ 301
+/core/templateslive-provider/ably/ /core/docs/examples/ 301
+/core/templatescustomization/customSider/ /core/docs/3.xx.xx/examples/customization/customSider/ 301
+/core/templatestable/antd/useTable/ /core/docs/3.xx.xx/examples/table/antd/useTable/ 301
+/core/templatesform/chakra-ui/useForm/ /core/docs/3.xx.xx/examples/form/chakra-ui/useForm/ 301
+
 # Advanced tutorials redirects
 /core/docs/advanced-tutorials/mutation-mode/ /core/docs/3.xx.xx/advanced-tutorials/mutation-mode/ 301
 /advanced-tutorials/custom-layout/ /core/docs/3.xx.xx/advanced-tutorials/custom-layout/ 301
