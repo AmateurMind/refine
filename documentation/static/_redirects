@@ -1299,3 +1299,7 @@
 /core/docs/api-reference/core/data/hooks/useList/ /core/docs/data/hooks/use-list/ 301
 /core/docs/api-reference/core/data/hooks/useOne/ /core/docs/data/hooks/use-one/ 301
 /core/docs/core/data/hooks/use-one/ /core/docs/data/hooks/use-one/ 301
+
+/blog/tags/kubernetes/page/3/ /blog/ 301
+/blog/tags/philosophy/ /blog/ 301
+/blog/tags/software/ /blog/ 301
