@@ -4,7 +4,7 @@ description: A guide to writing comments that help (and avoiding the ones that h
 slug: code-comments
 authors: ozgur
 tags: [ai, comments, bugs, devlife]
-image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2025-08-19-code-comments/Frame%2021%20from%20Figma.png
+image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2025-08-19-code-comments/code-comments.png
 hide_table_of_contents: false
 ---
 
