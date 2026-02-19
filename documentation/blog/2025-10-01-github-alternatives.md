@@ -4,7 +4,7 @@ description: GitHub is the default for most developers, but it’s not the only 
 slug: github-alternatives
 authors: ozgur
 tags: [git, dev-tools, opensource]
-image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2025-10-01-github-alternatives/image%20(22)%20(1).png
+image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2025-10-01-github-alternatives/github-alternatives.png
 hide_table_of_contents: false
 ---
 
