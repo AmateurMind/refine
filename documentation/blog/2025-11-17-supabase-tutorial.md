@@ -3,10 +3,10 @@ title: Create Your Own Supabase Database In 5 Minutes
 description: Learn how to create and configure a scalable Supabase database. A step-by-step guide to getting your backend ready for your next web project.
 slug: supabase-database-setup
 authors: ozgur
-tags: [supabase, database, backend, tutorial]
+category: "Tutorials"
+tags: [supabase, backend]
 image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2025-11-17-supabase-tutorial/supabase-tutorial-big.png
 hide_table_of_contents: false
-is_featured: true
 ---
 
 If you’ve ever wanted to create a backend quickly — with a real database, authentication, storage, and auto-generated APIs — **Supabase** is a practical place to start. It’s open source, runs on top of PostgreSQL, and helps you move from idea to data in minutues.
