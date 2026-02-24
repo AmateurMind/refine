@@ -431,7 +431,7 @@ export const ThemedSider: React.FC<RefineThemedLayoutSiderProps> = ({
                 fontSize: "14px",
               }}
             >
-              <RenderToTitle collapsed={false} />
+              <RenderToTitle collapsed={siderCollapsed} />
             </Box>
             {drawer}
           </Box>

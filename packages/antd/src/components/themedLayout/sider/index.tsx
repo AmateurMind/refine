@@ -224,7 +224,7 @@ export const ThemedSider: React.FC<RefineThemedLayoutSiderProps> = ({
                   backgroundColor: token.colorBgElevated,
                 }}
               >
-                <RenderToTitle collapsed={false} />
+                <RenderToTitle collapsed={siderCollapsed} />
               </div>
               {renderMenu()}
             </Layout.Sider>

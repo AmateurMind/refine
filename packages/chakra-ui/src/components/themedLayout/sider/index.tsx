@@ -272,7 +272,7 @@ export const ThemedSider: React.FC<RefineThemedLayoutSiderProps> = ({
             borderBottom="1px"
             borderBottomColor={useColorModeValue("gray.200", "gray.700")}
           >
-            <RenderToTitle collapsed={false} />
+            <RenderToTitle collapsed={siderCollapsed} />
           </Box>
           <VStack
             alignItems="start"

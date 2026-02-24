@@ -225,7 +225,7 @@ export const ThemedSider: React.FC<RefineThemedLayoutSiderProps> = ({
               borderBottom: `1px solid ${borderColor}`,
             }}
           >
-            <RenderToTitle collapsed={false} />
+            <RenderToTitle collapsed={siderCollapsed} />
           </Navbar.Section>
           <Navbar.Section component={ScrollArea} grow mx="-xs" px="xs">
             {renderSider()}
